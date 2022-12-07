@@ -98,9 +98,9 @@ object HousePrices {
       // 指定特征向量
       .setFeaturesCol("indexedFeatures")
       // 指定决策树的数量
-      //.setMaxIter(30)
+      //.setMaxIter(200)
       // 指定决策树的最大深度
-      //.setMaxDepth(5)
+      //.setMaxDepth(10)
       .setMaxBins(113)
 
     //将所有步骤拼接起来
